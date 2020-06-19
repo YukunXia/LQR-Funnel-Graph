@@ -4,8 +4,6 @@ from pydrake.all import (DirectCollocation, PiecewisePolynomial, Solve, eq,
                          RealContinuousLyapunovEquation, MathematicalProgram,
                          Variables, Solve, sin)  # , Linearize)
 from pydrake.examples.pendulum import PendulumPlant, PendulumState, PendulumParams
-from pydrake.examples.pendulum import PendulumPlant, PendulumState
-from pydrake.all import DirectCollocation, PiecewisePolynomial, Solve
 
 from underactuated.pendulum import PendulumVisualizer
 from underactuated import plot_2d_phase_portrait
